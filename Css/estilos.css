@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+*{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+
+}
+
+
+body{
+    color: #3C3C3C;
+    font-weight: 300;
+    font-family:'Raleway', sans-serif;
+    text-decoration: none;
+
+}
+
+/* text decoration : none es para quitar subrayados*/
+
+/*Header*/
+
+header{
+
+    width: 960px;
+    margin:auto ;
+    height: 100px;
+    background-color: rgb(240, 244, 239);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+
+
+header a{
+
+    color: #3C3C3C;
+}
+
+/*Hero Banner*/
+
+#Bienvenida {
+
+    width: 960px;
+    height: 450px;
+
+}
+
+
+main{
+    width: 960px;
+    margin:auto;
+    background-color: #c2cc3b;
+    background-position: center center;
+    align-items: center;
+    
+}
+
+#hero-banner{
+
+        width: 960px;
+        height: 450px;
+                /*imagen de fondo*/
+        background-image: url(../IMGS/economia-sustentable.jpg);
+        background-size:  cover ;
+        background-position: center center;
+        display: grid;
+        align-items: center;
+}
+
+#hero-banner h1{
+
+    color: rgb(22, 18, 18);
+    font-size: 32px;
+    margin-left: 100px;
+   
+    
+}
+
+#Soluciones{
+    height: 382px;
+    margin-top: 52px;
+    background-color: #0cf73f;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#Soluciones article{
+
+    width: 256px;
+    }
+
+#Soluciones h2{ 
+
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
+#Soluciones article img{
+
+    width: 256px;
+    height: 200px;
+}
+
+#servicios{
+ width: 762px;
+ margin: auto; 
+ 
+ margin-top: 52px;
+ display: flex;
+ flex-wrap: wrap;
+ 
+}
+#servicios h2{
+
+    width: 762px;
+    font-size: 32px;
+   text-align: center;
+    
+}
+
+#servicios a{
+
+    border: 1px solid #3C3C3C;
+    border-radius: 15px;
+    width: 160px;
+    color: #3C3C3C;
+    height: 140px;
+    display:block;
+    margin: 47px;
+    text-align: center;
+    
+}
+
+#servicios a span{
+    font-size: 56px;
+    margin: 52px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    
+}
+
+footer{
+
+    width: 960px;
+    height: 160px;
+    background-color: #a3f50b;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items:center;
+}
+
+
+footer a{
+
+    color: rgb(253, 15, 182);
+    margin-top: 12px;
+}
+
+footer img{
+
+    vertical-align: middle;
+    margin-left: 12px;
+    margin-right: 8px;
+}
+
+footer div a img{
+
+        width: 24px;
+        margin-right: 12px;
+}
+
+#mapa{
+    margin-top: 52px;
+
+}
+
+#mapa iframe {
+
+    width: 960px;
+    height: 450px;
+    border: none;
+}
+
+#video{
+    margin-top: 52px;
+}
+
+#video iframe{
+    width: 960px;
+    height: 450px;
+    
+}
+
+#contacto{
+
+    margin-top: 52px;
+    height: 450px;
+    background-color: #EC7D54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacto form{
+    width: 550px;
+}
+
+#contacto form input, 
+#contacto form textarea
+{
+
+    width: 550px;
+    background-color: #f1af15;
+    padding: 8px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    color:  white;
+
+}
+
+#contacto form input ::placeholder, 
+#contacto form textarea ::placeholder
+
+{
+    color: rgb(249, 243, 243);
+   
+}
+
+#contacto form textarea{
+    height: 152px;
+    resize: none;
+}
+
+#contacto form button{
+    width: 212px;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    color: #18eb0d;
+}
+
+#contacto form button:hover{
+
+    background-color: rgb(234, 194, 14);
+}
+
