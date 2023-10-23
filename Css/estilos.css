@@ -20,9 +20,9 @@ body{
 
 /*Header*/
 
-header{
+#idheader{
 
-    width: 960px;
+    width: 100%;
     margin:auto ;
     height: 100px;
     background-color: rgb(240, 244, 239);
@@ -42,25 +42,29 @@ header a{
 
 #Bienvenida {
 
-    width: 960px;
-    height: 450px;
+    width: 100%;
+    height: 500px;
 
 }
 
 
 main{
-    width: 960px;
+    width: 100%;
     margin:auto;
-    background-color: #c2cc3b;
+    background-color: white;
     background-position: center center;
     align-items: center;
     
 }
 
+@media only screen and (max-width= 600px) 
+{#main{background-color: #0cf73f;}
+.tamanio ::before{content: "vista media"; }}
+
 #hero-banner{
 
-        width: 960px;
-        height: 450px;
+        width: 100%;
+        height: 600px;
                 /*imagen de fondo*/
         background-image: url(../IMGS/economia-sustentable.jpg);
         background-size:  cover ;
@@ -71,9 +75,10 @@ main{
 
 #hero-banner h1{
 
-    color: rgb(22, 18, 18);
+    color: rgb(2, 50, 2);
     font-size: 32px;
-    margin-left: 100px;
+    margin-left: 10px;
+    margin-bottom: 400px;
    
     
 }
@@ -146,11 +151,11 @@ main{
     
 }
 
-footer{
+#idfooter{
 
-    width: 960px;
+    width: 100%;
     height: 160px;
-    background-color: #a3f50b;
+    background-color: #027706;
     margin: auto;
     justify-content: space-between;
     display: flex;
@@ -158,52 +163,31 @@ footer{
 }
 
 
-footer a{
+#idfooter a{
 
     color: rgb(253, 15, 182);
     margin-top: 12px;
 }
 
-footer img{
+#idfooter img{
 
     vertical-align: middle;
     margin-left: 12px;
     margin-right: 8px;
 }
 
-footer div a img{
+#idfooter div a img{
 
         width: 24px;
         margin-right: 12px;
 }
 
-#mapa{
-    margin-top: 52px;
-
-}
-
-#mapa iframe {
-
-    width: 960px;
-    height: 450px;
-    border: none;
-}
-
-#video{
-    margin-top: 52px;
-}
-
-#video iframe{
-    width: 960px;
-    height: 450px;
-    
-}
 
 #contacto{
 
     margin-top: 52px;
     height: 450px;
-    background-color: #EC7D54;
+    background-color: #077b26;
     display: flex;
     justify-content: center;
     align-items: center;
