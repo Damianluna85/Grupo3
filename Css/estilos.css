@@ -51,7 +51,7 @@ header a{
 }
 
 #Frase {
-    font-size: 24px;
+    font-size: 34px;
     text-align: center;
     animation: bounce 2s infinite;
 }
@@ -68,6 +68,21 @@ header a{
     }
 }
 
+.contact-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-button:hover {
+    background-color: #2374a7;
+    animation: bounce 0.5s infinite;
 }
 
 main{
