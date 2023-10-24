@@ -41,6 +41,15 @@ header a{
     color: #3C3C3C;
 }
 
+@media (max-width: 300px) {
+    /* Oculta el contenido del encabezado excepto la parte que deseas mostrar */
+    #idheader nav {
+        display: none;
+      }
+  }
+   
+  
+
 /*Hero Banner*/
 
 #Bienvenida {
