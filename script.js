@@ -5,7 +5,7 @@ let header = `
         </a>
         <nav>
             <a href="index.html">Inicio</a>
-            <a href="#">Soluciones</a>
+            <a href="#Soluciones">Soluciones</a>
             <a href="#">Nuestros Clientes</a>
             <a href="contacto.html" target="_blank">Contacto</a>
         </nav>

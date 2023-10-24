@@ -279,9 +279,21 @@ main{
 #ambienteAgil{
     width: 100%;
     height: 600px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 30px;
     color: #077b26;
             /*imagen de fondo*/
     background-image: url(../IMGS/Kanban.jpg);
-  
+
+}
+
+#Costos {
+
+    width: 100%;
+    height: 300px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 30px;
 
 }
