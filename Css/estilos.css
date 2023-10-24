@@ -32,9 +32,16 @@ body{
     justify-content: space-between;
     display: flex;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+#iconheader {
+    display: flex;
+    align-items: center;
+    gap:10px
 
+}
 
 header a{
 
@@ -166,6 +173,8 @@ main{
  margin-top: 52px;
  display: flex;
  flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
  
 }
 #servicios h2{
@@ -233,7 +242,7 @@ main{
 
     margin-top: 52px;
     height: 450px;
-    background-color: #077b26;
+    background-color: #b5ecc3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,7 +257,7 @@ main{
 {
 
     width: 550px;
-    background-color: #f1af15;
+    background-color: #f0e3c7;
     padding: 8px;
     font-size: 18px;
     margin-bottom: 16px;
@@ -317,9 +326,18 @@ main{
 
 }
 
+.comentarios__content {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:20px
+
+}
+
 .comentarios__card-container {
     display: flex;
-  flex-wrap: wrap
+    flex-direction: row;
+ 
 }
 
 
@@ -350,3 +368,7 @@ main{
   border-radius: 5px;
 }
                         
+section {
+    padding-left: 20px;
+   padding-right: 20px;
+}

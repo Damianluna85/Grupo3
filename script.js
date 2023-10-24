@@ -1,5 +1,5 @@
 let header = `
-<a  href="index.html">
+<a  href="index.html" id="iconheader">
             <img src="IMGS/sunsea.png" alt="Mundo">
             Green Solutions
         </a>
