@@ -15,7 +15,7 @@ let header = `
  let footer =`
  
         <a href="index.html">
-            <img src="imgs/sunsea-wht.png" alt="Summer Exploring Logo">
+            <img src="IMGS/sunsea-wht.png" alt="Summer Exploring Logo">
             Green Solutions
         </a>
 
