@@ -48,12 +48,15 @@ header a{
     color: #3C3C3C;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 800px) {
     /* Oculta el contenido del encabezado excepto la parte que deseas mostrar */
     #idheader nav {
         display: none;
       }
   }
+
+
+
    
   
 
@@ -68,6 +71,7 @@ header a{
 
 #Frase {
     font-size: 34px;
+    color: orange;
     text-align: center;
     animation: bounce 2s infinite;
 }
@@ -128,7 +132,7 @@ main{
 
 #hero-banner h1{
 
-    color: rgb(2, 50, 2);
+    color: rgb(237, 87, 12);
     font-size: 32px;
     margin-left: 10px;
     margin-bottom: 400px;
@@ -165,6 +169,13 @@ main{
     width: 256px;
     height: 200px;
 }
+
+@media (max-width: 400px) {
+    #Soluciones {
+        display: none;
+      }
+  }
+
 
 #servicios{
  width: 762px;
@@ -205,6 +216,13 @@ main{
     margin-bottom: 10px;
     
 }
+
+@media (max-width: 400px) {
+    #servicios {
+        display: none;
+      }
+  }
+
 
 #idfooter{
 
